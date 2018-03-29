@@ -227,7 +227,7 @@
 		<div class="row">
 			<div class="col-md-8 col-xs-12 col-lg-8">
 				<div class="heading">
-					<h2>TIN TỨC NỔI BẬC</h2>
+					<h2>TIN TỨC NỔI BẬT</h2>
 				</div>
 				<div id="news-pane">
 					<!-- <div class="row category-body">
@@ -512,7 +512,7 @@
 						'<div class="row category-body">'+
 							'<div class="col-md-5">'+
 								'<img class="img-thumbnail"'+
-									'src="static/public/images/business.PNG" alt="Warning">'+
+									'src="https://drive.google.com/uc?export=view&id='+result[i].news_image+'" alt="Warning">'+
 							'</div>'+
 							'<div class="col-md-7">'+
 								'<h4>'+
@@ -532,7 +532,7 @@
 							'<div class="row category-body">'+
 								'<div class="col-md-5">'+
 									'<img class="img-thumbnail"'+
-										'src="static/public/images/business.PNG" alt="Warning">'+
+									'src="https://drive.google.com/uc?export=view&id='+result[i].news_image+'" alt="Warning">'+
 								'</div>'+
 								'<div class="col-md-7">'+
 									'<h4>'+
@@ -578,7 +578,7 @@
 									'<div class="row category-body">'+
 									'<div class="col-md-5">'+
 										'<img class="img-thumbnail"'+
-											'src="static/public/images/business.PNG" alt="Warning">'+
+										'src="https://drive.google.com/uc?export=view&id='+result[i].news_image+'" alt="Warning">'+
 									'</div>'+
 									'<div class="col-md-7">'+
 										'<h4>'+
@@ -599,7 +599,7 @@
 									'<div class="row category-body">'+
 									'<div class="col-md-5">'+
 										'<img class="img-thumbnail"'+
-											'src="static/public/images/business.PNG" alt="Warning">'+
+										'src="https://drive.google.com/uc?export=view&id='+result[i].news_image+'" alt="Warning">'+
 									'</div>'+
 									'<div class="col-md-7">'+
 										'<h4>'+
