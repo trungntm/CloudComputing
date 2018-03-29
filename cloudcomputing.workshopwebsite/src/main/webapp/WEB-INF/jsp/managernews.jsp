@@ -894,7 +894,7 @@
 			
 			if(!file){
 				$("#imgnewsup").attr('src','static/public/images/1.jpg')
-				alert("Vui lòng chọn file");
+				$.alert("Vui lòng chọn file");
 				return;
 			} 
 			$.ajax({
@@ -910,7 +910,7 @@
 				$("#FileImageNews").val(result[1])
 				
 			}).fail(function(result) {
-			    alert("Tải ảnh lên không thành công");
+			    $.alert("Tải ảnh lên không thành công");
 			});
 		}
     
@@ -918,7 +918,7 @@
 		var file = $('#file').get()[0].files[0];
 		
 		if(!file){
-			alert("Vui lòng chọn file");
+			$.alert("Vui lòng chọn file");
 			return;
 		} 
 		$.ajax({
@@ -933,7 +933,7 @@
 			$("#FileName").val(result[1])
 			
 		}).fail(function(result) {
-		    alert("Tải tệp lên không thành công");
+		    $.alert("Tải tệp lên không thành công");
 		});
 	}
     
